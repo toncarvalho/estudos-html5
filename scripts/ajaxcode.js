@@ -8,7 +8,7 @@ function loadDoc() {
 
     xhttp.open("GET", "data.js", true);
     xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhttp.send();
+    xhttp.send(null);
 }
 
 function myFunction(xmlhttp) {
@@ -75,7 +75,6 @@ function myFunction(xmlhttp) {
     tabela += linhas;
     tabela += "</table>";
 
-    //document.getElementById("tabela").innerHTML = linhas;
     document.getElementById("tabela").innerHTML = tabela;
 
 
