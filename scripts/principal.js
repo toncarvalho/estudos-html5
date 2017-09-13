@@ -28,3 +28,12 @@ function abrirPopUpNovo() {
 
 
 }
+
+function abrirPopUpEditar() {
+
+    //Tab
+    var formEdicao = window.open("file:///home/dev/estudos-html5/paginas/cadastro.html", self)
+
+
+
+}
